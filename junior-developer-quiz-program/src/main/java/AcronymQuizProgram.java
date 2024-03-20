@@ -1,6 +1,8 @@
 package main.java;
 
-import java.io.FileNotFoundException;
+import main.java.model.Acronym;
+import main.java.model.RandomGenerator;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;

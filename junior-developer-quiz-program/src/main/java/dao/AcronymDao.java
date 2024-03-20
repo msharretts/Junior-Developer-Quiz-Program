@@ -1,2 +1,4 @@
-package main.java.dao;public interface AcronymDao {
+package main.java.dao;
+
+public interface AcronymDao {
 }

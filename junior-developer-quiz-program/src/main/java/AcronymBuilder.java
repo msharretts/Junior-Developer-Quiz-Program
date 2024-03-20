@@ -1,5 +1,7 @@
 package main.java;
 
+import main.java.model.Acronym;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;

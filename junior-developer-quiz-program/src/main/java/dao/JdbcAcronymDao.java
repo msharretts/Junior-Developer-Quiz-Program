@@ -1,2 +1,5 @@
-package main.java.dao;public class JdbcAcronymDao {
+package main.java.dao;
+
+public class JdbcAcronymDao {
+
 }
