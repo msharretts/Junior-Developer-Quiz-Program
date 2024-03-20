@@ -16,9 +16,10 @@ public class UserInterface {
         System.out.println();
         System.out.println("(1) Display Acronyms");
         System.out.println("(2) Add New Acronym");
-        System.out.println("(3) Quiz Program");
-        System.out.println("(4) Search for Acronym");
-        System.out.println("(5) Exit");
+        System.out.println("(3) Update Acronym");
+        System.out.println("(4) Quiz Program");
+        System.out.println("(5) Search for Acronym");
+        System.out.println("(6) Exit");
         System.out.println();
     }
 
@@ -28,10 +29,10 @@ public class UserInterface {
         String selection = userInput.nextLine();
 
         // Check that the user input matches the menu options
-        while (!selection.trim().equals("1") && !selection.equals("2") && !selection.equals("3") && !selection.equals("4") && !selection.equals("5")) {
+        while (!selection.trim().equals("1") && !selection.equals("2") && !selection.equals("3") && !selection.equals("4") && !selection.equals("5") && !selection.equals("6")) {
 
             // While input does not match, continue to prompt for correct input
-            System.out.println("Invalid selection, please enter a number 1-5: ");
+            System.out.println("Invalid selection, please enter a number 1-6: ");
             selection = userInput.nextLine();
         }
         // Once input matches menu option selection, return string input as an integer

@@ -39,10 +39,12 @@ public class AcronymQuizProgram {
             } else if (selection == 2) {
                 addAcronymToList();
             } else if (selection == 3) {
-                quizProgram();
+
             } else if (selection == 4) {
-                searchForAndDisplayAcronym();
+                quizProgram();
             } else if (selection == 5) {
+                searchForAndDisplayAcronym();
+            } else if (selection == 6) {
                 System.exit(1);
             }
         }
